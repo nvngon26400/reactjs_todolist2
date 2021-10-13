@@ -17,7 +17,7 @@ const Header = memo((props) => {
 
     return (
         <header className="header">
-            <h1>todos</h1>
+            <h1>ToDoList</h1>
             <input
                 className="new-todo"
                 placeholder="What needs to be done?"

@@ -1,7 +1,7 @@
 body {
     margin: auto;
 }
-  
+
 .todoapp {
     width: 500px;
     background: #fff;
@@ -66,7 +66,7 @@ input[type="checkbox" i] {
 .todo-list li {
     position: relative;
     font-size: 24px;
-    border-bottom: 1px solid #ededed;
+    border-bottom: 1px solid #cacaff;
 }
 
 .todo-list li .destroy {
@@ -79,7 +79,7 @@ input[type="checkbox" i] {
     height: 40px;
     margin: auto 0;
     font-size: 30px;
-    color: #cc9a9a;
+    color: #ff0000;
     margin-bottom: 11px;
     transition: color 0.2s ease-out;
 }
@@ -144,7 +144,7 @@ button {
     font-size: 100px;
     font-weight: 100;
     text-align: center;
-    color: rgba(175, 47, 47, 0.15);
+    color: rgba(0, 0, 0, 0.15);
     -webkit-text-rendering: optimizeLegibility;
     -moz-text-rendering: optimizeLegibility;
     text-rendering: optimizeLegibility;
@@ -175,12 +175,12 @@ button {
 .toggle-all + label:before {
     content: '❯';
     font-size: 22px;
-    color: #e6e6e6;
+    color: #ff6969;
     padding: 10px 27px 10px 27px;
 }
 
 .toggle-all:checked + label:before {
-    color: #737373;
+    color: #f08b8b;
 }
 
 .main {
@@ -261,6 +261,6 @@ button {
 }
 
 .todo-list li.completed label {
-    color: #d9d9d9;
+    color: #ee7070;
     text-decoration: line-through;
 }

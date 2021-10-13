@@ -1,8 +1,10 @@
 import React, { memo } from 'react'
 import Todo from './Todo'
+import Moment from 'react-moment';
 
 const TodoList = memo(props => {
     const { listTodos, checkAll, isCheckedAll } = props
+    const date = new Date();
     return (
         <section className="main">
             <input
@@ -14,6 +16,9 @@ const TodoList = memo(props => {
                 }}
                 checked={isCheckedAll}
             />
+           <Moment style={{padding: '14px 14px', color: 'gray'}}
+
+            format='MMMM Do YYYY'>{date}</Moment>
             <label htmlFor="toggle-all" onClick={checkAll} ></label>
             <ul className="todo-list">
                 {
